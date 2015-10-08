@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>shirk-u2f</name>
+		<description>Yubicos PAM u2f module and helpers</description>
+		<homepage>https://github.com/shirk/gentoo-u2f-overlay/</homepage>
+		<owner>
+			<name>René Köcher</name>
+		</owner>
+		<source type="git">https://github.com/shirk/gentoo-u2f-overlay.git</source>
+	</repo>
+</repositories>

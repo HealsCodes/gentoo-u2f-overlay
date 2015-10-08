@@ -1,0 +1,11 @@
+--- Makefile.am.debug	2015-10-08 09:12:07.104914818 +0200
++++ Makefile.am	2015-10-08 09:12:17.796169844 +0200
+@@ -18,7 +18,7 @@
+ pam_u2f_la_LIBADD += $(LIBU2FHOST_LIBS) $(LIBU2FSERVER_LIBS)
+ pam_u2f_la_LDFLAGS = -module -avoid-version
+ 
+-DEFS = -DDEBUG_PAM -DPAM_DEBUG @DEFS@
++DEFS = -UDEBUG_PAM -UPAM_DEBUG @DEFS@
+ 
+ dist_man8_MANS = $(top_builddir)/man/pam_u2f.8
+ DISTCLEANFILES = $(dist_man8_MANS)
